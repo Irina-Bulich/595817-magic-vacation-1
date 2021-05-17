@@ -110,3 +110,47 @@ document.addEventListener(`DOMContentLoaded`, function () {
     animationBottomScreenTextLine.runAnimation();
   }, 500);
 });
+
+// 1. нужно подключить шейдеры (доделать!)
+const setup3dInfrastructure = () => {
+  const initialWidth = window.innerWidth;
+  const initialHeight = window.innerHeight;
+}
+// end
+// 2. сцены со смещением цвета Hue
+
+// end
+
+// 3. эффект сферического смещения — «Лупа»
+
+// end
+
+// 5. Mигание интенсивности эффекта Hue
+
+// end
+
+// 6. Анимация движения пузырьков
+
+// end
+
+// 7. Источники света на сцену личного проекта
+
+// end
+
+// 11. RawShaderMaterial
+
+// end
+
+// 12 . Замочная скважина
+
+// end
+
+// 13. «Замочная скважина»
+
+// end
+
+// 14.  ИИ «Соня»
+
+// end
+
+

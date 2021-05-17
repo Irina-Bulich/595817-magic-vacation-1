@@ -5,7 +5,7 @@
   text-transform: uppercase;
   text-align: center;
   font-family: $font-alt;
-  font-weight: 400;
+  font-weight: 400;              
   font-size: 2.4rem;
   line-height: 3rem;
   color: $c-dark;
@@ -14,7 +14,7 @@
   @media (min-width: $stop-scaling) {
     padding: 15px 29px;
     font-size: 24px;
-    line-height: 30;                 
+    line-height: 30;                                  
   }
 
   @media (max-width: $tablet) and (orientation: portrait) {

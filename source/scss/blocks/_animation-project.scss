@@ -17,16 +17,16 @@
       animation-delay: 1.1s;
   }
 }
-.page-header {
+.page-header {         
   margin-top: -125px;
   transition: margin-top 1s cubic-bezier(.7, .08, .02, 1.1);
 }
-.screen__footer {
+.screen__footer {                          
   margin-bottom: -40px;
   transition: margin-bottom 1s cubic-bezier(.7, .08, .02, 1.1);
 }
 .ready {
-  .page-header {
+  .page-header {             
     margin-top: 0;
   }
   .screen__footer {
@@ -306,5 +306,56 @@ section {
 }
 .intro__label .text__word {
   margin: 0;
-  overflow: inherit
+  overflow: inherit   
 }
+
+// 4. обводкa и блик пузырьков
+
+// end
+
+// 8. «Фонарь» и «Снеговик»     
+   
+// end
+
+//9. LatheGeometry
+
+// end
+
+//10.  Добавление однотонных материалов
+
+// end
+
+// 14. «Чемодан»
+
+// end
+
+// 15. Фоновая анимация объектов «Собака», «Люстра Сатурн», «Листья», «Компас», «ИИ Соня»
+
+// end
+
+// 16. появления «чемодана» из замочной скважины
+
+// end
+
+//17. Анимация «вылета самолёта» из замочной скважины
+
+// end
+
+// 18. Переходы между сценами 
+  
+// end
+
+//19. Pеакция камеры
+
+// end
+
+// 20. Resize-кадрирование
+
+// end
+
+//21. Post-Processing
+
+//end 
+
+
+

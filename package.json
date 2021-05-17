@@ -4,10 +4,9 @@
   "description": "Личный проект «Таинственный отпуск» от HTML Academy",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
-    "concurrently": "5.1.0",
     "copy-webpack-plugin": "5.1.1",
     "css-loader": "3.5.1",
-    "csso-webpack-plugin": "^2.0.0-beta.1",
+    "csso-webpack-plugin": "2.0.0-beta.1",
     "eslint": "6.5.1",
     "eslint-config-htmlacademy": "0.5.2",
     "gulp": "4.0.x",
@@ -16,22 +15,21 @@
     "gulp-svgstore": "7.0.1",
     "gulp-webp": "4.0.1",
     "html-loader": "1.1.0",
-    "html-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "4.2.0",
     "lodash": "4.17.15",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.14.1",
-    "pixel-glass": "1.0.13",
+    "mini-css-extract-plugin": "0.9.0",
     "posthtml": "0.12.0",
     "posthtml-include": "1.2.0",
     "posthtml-loader": "1.0.2",
     "posthtml-parser": "0.4.2",
-    "sass-loader": "^8.0.2",
+    "sass": "1.32.8",
+    "sass-loader": "8.0.2",
     "style-loader": "1.1.3",
     "stylelint": "9.10.x",
     "stylelint-config-htmlacademy": "0.1.x",
-    "webpack": "^4.43.0",
+    "webpack": "4.41.5",
     "webpack-cli": "3.3.11",
-    "webpack-dev-server": "^3.10.3",
+    "webpack-dev-server": "3.10.3",
     "write-file-webpack-plugin": "4.5.1"
   },
   "scripts": {
@@ -55,23 +53,9 @@
     "source/img/**/*.svg",
     "source/sass/**/*.{sass,scss}"
   ],
-  "engines": {
-    "node": "8.15"
-  },
   "dependencies": {
-    "loader": "^2.1.1",
+    "normalize.css": "8.0.1",
     "swiper": "5.3.8",
     "three": "0.115.0"
-  },
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Irina-Bulich/595817-magic-vacation-1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Irina-Bulich/595817-magic-vacation-1/issues"
-  },
-  "homepage": "https://github.com/Irina-Bulich/595817-magic-vacation-1#readme"
+  }
 }
